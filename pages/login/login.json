@@ -1,0 +1,9 @@
+{
+    "defaultTitle": "登录",
+    "titleBarColor": "#FFFFFF",
+    "allowsBounceVertical": "NO",
+    "usingComponents": {
+        "van-checkbox": "vant-aliapp/dist/dist/checkbox/index",
+        "van-checkbox-group": "vant-aliapp/dist/dist/checkbox-group/index"
+    }
+}

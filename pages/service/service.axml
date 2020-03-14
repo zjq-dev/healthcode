@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="header-cell">
+    <view class="left">
+      <van-icon name="service-o" size="60rpx" custom-style="vertical-align: middle;margin-right: 10rpx;" />客服微信：{{kefu}}
+    </view>
+    <view class="right">
+      <button size="mini" class="copy-btn" onTap='copy'>一键复制</button>
+    </view>
+  </view>
+  <view class="content">
+    <view class="text">
+      <view>添加客服微信，备注咨询内容。</view>
+      <view>客服审批通过即可邀请您入群</view>
+    </view>
+    <image class="wx-image" src="../../images/service.png"></image>
+    <view class="title">客服微信二维码</view>
+    <button class="save-btn" onTap="saveImage">保存图片</button>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="title">基本信息</view>
+  <view class="cell-list">
+    <view class="cell-item"><view>姓名</view><view></view>{{userInfo.familyname}}</view>
+    <!-- <view class="cell-item"><view>证件类型</view><view></view>{{userInfo.idcard_type}}</view> -->
+    <view class="cell-item"><view>证件类型</view><view></view>身份证</view>
+    <view class="cell-item"><view>证件号码</view><view></view>{{userInfo.idcard}}</view>
+    <view class="cell-item"><view>手机号码</view><view></view>{{userInfo.phone}}</view>
+    <view class="cell-item"><view>所属单位</view><view></view>{{userInfo.syou}}</view>
+    <view class="cell-item"><view>接收关系</view><view></view>{{types[userInfo.type]}}</view>
+  </view>
+</view>

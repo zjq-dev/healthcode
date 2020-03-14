@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 30rpx;
+    margin-bottom: 20rpx;
+}
+
+.avatar {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+
+.phone {
+    margin-left: 30rpx;
+    font-size: 30rpx;
+    color: #999;
+}
+
+.cell-box {
+    background-color: #fff;
+}
+
+.cell-box .cell-list {
+    padding-left: 50rpx;
+}
+
+.cell-box .cell-list .cell-item {
+    height: 120rpx;
+    line-height: 120rpx;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rpx #DBDBDB solid;
+    font-size: 40rpx;
+}
+
+.cell-box .cell-list .cell-item .label {
+    display: flex;
+}
+
+.cell-box .cell-list .cell-item .label .slot {
+    margin-right: 20rpx;
+}
+
+.logout-btn {
+    width: 80%;
+    margin: 100rpx auto;
+    background-color: #FAFAFA;
+    border-color: #EBEBEB;
+    font-weight: bold;
+    color: #4A5161;
+}

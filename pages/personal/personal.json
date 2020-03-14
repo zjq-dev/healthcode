@@ -1,0 +1,7 @@
+{
+    "defaultTitle": "个人中心",
+    "allowsBounceVertical": "NO",
+    "usingComponents": {
+        "van-icon": "vant-aliapp/dist/dist/icon/index"
+    }
+}

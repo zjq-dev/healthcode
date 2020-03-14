@@ -1,0 +1,19 @@
+<view class='header'>
+  <image class="avatar" src="{{userInfo.avatar ? userInfo.avatar : '../../images/nav_user2.png'}}"/>
+  <text>{{userInfo.nickName ? userInfo.nickName : '某某某'}}</text>
+</view>
+<view class="login">
+    <view class="icon"></view>
+    <view class="text">请先登录账号</view>
+    <button type="primary" class="btn" disabled="{{ !readed }}" a:if="{{author}}" 
+     open-type="getAuthorize" onGetAuthorize="onGetPhone" onError="onAuthError" scope='phoneNumber'>登录</button>
+     <button type="primary" class="btn" onTap="login" a:else open-type="getAuthorize"
+      onGetAuthorize="onGetAuthorize" onError="onAuthError" scope='userInfo'>用户授权</button>
+    <view class="tips">
+        <van-checkbox value="{{ readed }}" shape="square" onChange="onReaded" custom-class="checkbox">
+      我已阅读并同意
+            <text class="link" data-link="../user-agreement/user-agreement" catchTap="pageTo">《用户协议》</text>及
+            <text class="link" data-link="../privacy-policy/privacy-policy" catchTap="pageTo">《隐私政策》</text>
+        </van-checkbox>
+    </view>
+</view>

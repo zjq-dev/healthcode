@@ -1,0 +1,49 @@
+.banner image {
+    width: 100%;
+}
+
+.navs {
+    width: 100%;
+    padding: 0 30rpx;
+}
+
+.navs .navs-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30rpx 20rpx 35rpx 20rpx;
+    margin-bottom: 40rpx;
+    background-color: #fff;
+    box-shadow: 1rpx 8rpx 22rpx 0rpx rgba(138, 151, 155, 0.44);
+    border-radius: 20rpx;
+}
+
+.navs .navs-item image {
+    width: 150rpx;
+    height: 150rpx;
+    margin-right: 20rpx;
+}
+
+.navs .navs-item .title {
+    font-size: 45rpx;
+    font-weight: bold;
+    margin-bottom: 15rpx;
+    color: #000;
+}
+
+.navs .navs-item .desc {
+    font-size: 30rpx;
+    color: #666;
+}
+
+.scan {
+    display: flex;
+    justify-content: center;
+    padding: 100rpx 0;
+}
+
+.scan-btn {
+    width: 233rpx;
+    height: 233rpx;
+}

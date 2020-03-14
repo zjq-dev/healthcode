@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="banner">
+    <image src="../../images/banner.png" mode="widthFix" />
+  </view>
+  <view class="navs">
+    <view class="navs-item" a:for="{{navs}}" data-index="{{index}}" onTap="onItemClick">
+      <image mode="scaleToFill" src="{{item.icon}}"/>
+      <view>
+        <view class="title">{{item.title}}</view>
+        <view class="desc">{{item.desc}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="scan">
+    <image mode="scaleToFill" src="../../images/scan.png" class="scan-btn" onTap="scan"/>
+  </view> -->
+</view>

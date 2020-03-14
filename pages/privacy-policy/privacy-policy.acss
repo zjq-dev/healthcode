@@ -1,0 +1,19 @@
+.container {
+  padding: 50rpx 30rpx;
+  color: #333;
+  background-color: #fff;
+}
+.title {
+  text-align: center;
+  font-size: 40rpx;
+}
+.sectitle {
+  font-size: 35rpx;
+  font-weight: bold;
+  padding: 30rpx 0;
+}
+.p {
+  text-indent: 2em;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}

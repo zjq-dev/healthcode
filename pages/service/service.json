@@ -1,0 +1,9 @@
+{
+    "defaultTitle": "添加客服",
+    "titleBarColor": "#4393F4",
+    "backgroundColor": "#FFFFFF",
+    "allowsBounceVertical": "NO",
+    "usingComponents": {
+        "van-icon": "vant-aliapp/dist/dist/icon/index"
+    }
+}

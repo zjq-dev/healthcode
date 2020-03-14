@@ -1,0 +1,38 @@
+<view class='header'>
+  <image class="avatar" src="{{userInfo.avatar ? userInfo.avatar : '../../images/nav_user2.png'}}"/>
+  <text>{{userInfo.nickName ? userInfo.nickName : '某某某'}}</text>
+  <text class="phone">{{userInfo.phone ? userInfo.phone : '您的手机号'}}</text>
+</view>
+
+<view class="cell-box">
+  <view class="cell-list">
+    <view class="cell-item" catchTap='realName'>
+      <view class="title">实名认证</view>
+      <view class="label">
+        <view class="slot" a:if="{{is_register}}">已认证 <van-icon name="checked" color="#09BC09" /></view>
+        <view class="slot" a:else>未认证 <van-icon name="warning" color="red" /></view>
+        <van-icon name="arrow" custom-style="margin-right: 30rpx;" />
+      </view>
+    </view>
+    <view class="cell-item" data-link="../accrecord/accrecord" catchTap='pageTo'>
+      <view class="title">接收记录</view>
+      <view>
+        <van-icon name="arrow" custom-style="margin-right: 30rpx;" />
+      </view>
+    </view>
+    <view class="cell-item" data-link="../report-record/report-record" catchTap='pageTo'>
+      <view class="title">健康上报记录</view>
+      <view>
+        <van-icon name="arrow" custom-style="margin-right: 30rpx;" />
+      </view>
+    </view>
+    <view class="cell-item" data-link="../service/service" catchTap='pageTo' style="border-bottom: none;">
+      <view class="title">客服信息</view>
+      <view>
+        <van-icon name="arrow" custom-style="margin-right: 30rpx;" />
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="logout-btn" bindtap="quit">退出登录</button>

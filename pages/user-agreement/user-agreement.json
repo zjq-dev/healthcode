@@ -1,0 +1,8 @@
+{
+    "defaultTitle": "用户协议",
+    "titleBarColor": "#4393F4",
+    "backgroundColor": "#FFFFFF",
+    "allowsBounceVertical": "NO",
+    "usingComponents": {
+    }
+}

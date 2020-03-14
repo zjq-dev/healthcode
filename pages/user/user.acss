@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20rpx;
+    padding: 30rpx;
+}
+.title{
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+.cell-list .cell-item {
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
