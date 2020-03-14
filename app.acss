@@ -1,0 +1,16 @@
+page {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background: #F1EFF2;
+  color: #333;
+}
+
+view {
+  box-sizing: border-box;
+}

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/personal/personal",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/user/user",
+    "pages/user-agreement/user-agreement",
+    "pages/privacy-policy/privacy-policy",
+    "pages/health-code/health-code",
+    "pages/acceptance/acceptance",
+    "pages/accrecord/accrecord",
+    "pages/health-report/health-report",
+    "pages/report-record/report-record",
+    "pages/service/service"
+  ],
+  "tabBar": {
+    "textColor": "#344356",
+    "selectedColor": "#4393F4",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "/images/nav_home1.png",
+        "activeIcon": "/images/nav_home2.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "name": "我的",
+        "icon": "/images/nav_user1.png",
+        "activeIcon": "/images/nav_user2.png"
+      }
+    ]
+  },
+  "window": {
+    "defaultTitle": "驿道康汇",
+    "titleBarColor": "#4393F4",
+    "pullRefresh": false,
+    "allowsBounceVertical": "YES",
+    "titlePenetrate": "YES"
+  },
+  "debug": true
+}
